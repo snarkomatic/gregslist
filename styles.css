@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 80px;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+
+  background-color: #EEEEEE;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+.top {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 3px 0 3px 3px;
+}
+
+.nav-link {
+  font-size: 18px;
+  padding: 5px;
+}
+
+.search {
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.search input {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  height: 30px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+  padding: 5px 0 5px 8px;
+  width: 400px;
+}
+
+.search-button {
+  vertical-align: bottom;
+}
+
+.search button {
+  font-size: 17px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+
+.search-icon {
+  height: 100%;
+}
+
+.magnifying-glass-icon {
+  height: 100%;
+}
+
+.pages {
+  display: inline-block;
+  font-size: 0;
+  margin-bottom: 30px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+
+.pages-button {
+  font-size: 14px;
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 3px;
+}
+
+.pages-current {
+  font-size: 15px;
+  padding: 0 30px;
+  padding: 8px 25px;
+  border-left: 1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
+}
+
+.post {
+  list-style: none;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.post-date ,
+.post-place {
+  color: #999;
+}
